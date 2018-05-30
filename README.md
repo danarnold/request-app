@@ -5,7 +5,7 @@ a simple sinatra app to accept and handle web requests manually
 run it with
 
 ```ruby
-bundle exec ruby app.rb
+bundle exec puma
 ```
 
 then, you can handle web requests in the pry console that comes up with each

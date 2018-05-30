@@ -1,11 +1,13 @@
 Bundler.require
 
-get '*' do
-  binding.pry
-  'thanks!'
-end
+class App < Sinatra::Application
+  get '*' do
+    binding.pry
+    'thanks!'
+  end
 
-post '*' do
-  binding.pry
-  'thanks!'
+  post '*' do
+    binding.pry
+    'thanks!'
+  end
 end
