@@ -8,6 +8,12 @@ run it with
 bundle exec puma
 ```
 
+or
+
+```ruby
+bundle exec thin start -p 9292
+```
+
 then, you can handle web requests in the pry console that comes up with each
 request.
 
